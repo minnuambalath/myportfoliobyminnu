@@ -1,0 +1,173 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:rgb(115, 186, 243);
+  text-align: justify;
+}
+.centered h4{
+  color: #eee;
+}
+.app-button{
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  background-color:rgba(3, 44, 119, 0.884);
+  width: 150px;margin-left:60%;
+  line-height: 30px;
+}
+.app-button:hover{
+  background-color: #2B86C5;
+}
+#footer .twitter {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#footer .linkedin {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -78px 0;
+}
+#footer .facebook {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -233px 0;
+}
+#footer .skype {
+
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -156px 0;
+}
+#footer .flickr {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -310px 0;
+}
+#footer a {
+
+  height: 56px;
+  width: 56px;
+  display: inline-block;
+  margin: 10px;
+}
+#footer a:hover {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+}
+#footer .twitter:hover {
+  background-position: 0 -56px;
+}
+#footer .facebook:hover {
+  background-position: -233px -56px;
+}
+#footer .skype:hover {
+  background-position: -156px -56px;
+}
+#footer .linkedin:hover {
+  background-position: -78px -56px;
+}
+#footer .flickr:hover {
+  background-position: -310px -56px;
+}
+.bg-dark{
+  background-color: #2c282a;
+background-image: linear-gradient(225deg, #4c474a 0%, #375b92 50%, #c2d4e0 100%);
+}
+body {
+  min-height: 100vh;
+  background-color: #eee;
+  background-size: cover;
+  font-family: 'Cormorant', serif;
+  color: rgb(112, 123, 240);
+  background: linear-gradient(140deg, #fff, 50%, #74a0ff);
+  background-repeat: no-repeat
+}
+
+.container-fluid {
+  margin-top: 80px ;/*important*/
+  background: cyan;
+}
+
+p {
+  font-size: 17px;
+  margin-bottom: 7px
+}
+
+.small {
+  letter-spacing: 0.5px !important
+}
+
+.card-header img {
+  border: 5px solid white !important
+}
+
+.outside {
+  position: inherit;
+  top: -50%
+}
+
+.card {
+  border-radius: 20px !important;
+  box-shadow: 2px 2px 5px 0px rgb(100, 108, 170);
+  transition: 0.8s
+}
+
+.card-header {
+  border-radius: 20px !important
+}
+
+.card-footer {
+  border-radius: 20px !important
+}
+
+hr {
+  background-color: rgb(146, 154, 236);
+  border: 1px solid;
+  border-radius: 20px;
+  color: rgb(146, 154, 236);
+  height: 5px;
+  width: 70px !important
+}
+
+.bold {
+  font-weight: 500
+}
+
+.profile-pic {
+  margin-bottom: -5px !important
+}
+
+.quotes {
+  position: relative;
+  top: -10px
+}
+
+.quotes-down {
+  position: relative;
+  top: -4 px
+}
+
+.fa {
+  color: rgb(174, 178, 219);
+  cursor: pointer
+}
+
+.card-footer .fa {
+  font-size: 20px !important
+}
+
+.name {
+  margin-top: -50px !important
+}
+
+.container-fluid:hover .card:not(:hover) {
+  transform: scale(0.9)
+}
+
+@media (max-width: 1000px) {
+  .container-fluid:hover .card:not(:hover) {
+      transform: scale(1)
+  }
+}
